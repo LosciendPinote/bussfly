@@ -1,0 +1,25 @@
+{
+  "_objectWithoutPropertiesLoose-d32390e5.js": {
+    "file": "objectWithoutPropertiesLoose-d32390e5.js"
+  },
+  "admin.tsx": {
+    "file": "admin.tsx-902cba13.js",
+    "imports": [
+      "_objectWithoutPropertiesLoose-d32390e5.js"
+    ],
+    "isEntry": true,
+    "src": "admin.tsx"
+  },
+  "main.tsx": {
+    "file": "main.tsx-3de40ee9.js",
+    "imports": [
+      "_objectWithoutPropertiesLoose-d32390e5.js"
+    ],
+    "isEntry": true,
+    "src": "main.tsx"
+  },
+  "style.css": {
+    "file": "style.css",
+    "src": "style.css"
+  }
+}

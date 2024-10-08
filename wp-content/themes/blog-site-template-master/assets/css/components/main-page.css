@@ -1,0 +1,1321 @@
+/* =========HEADER CSS============== */
+
+header.main--header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+header.main--header .header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.header--navigation {
+    display: none;
+}
+
+.header__hamburger-menu {
+    height: var(--size-3xl);
+    width: var(--size-3xl);
+    color: var(--crl-txt-header);
+    display: block;
+}
+
+header.main--header .header__inner .header--navigation .default--btn a {
+    color: var(--crl-txt-secondary);
+}
+
+/* =========END OF HEADER CSS============== */
+/* =========HERO BANNER CSS============== */
+
+.hero--section .hero__title-wrap .hero__text {
+    color: var(--crl-txt-secondary);
+}
+
+.hero--section .hero__title-wrap.hero__title-1 h5.hero__text {
+    font-weight: var(--Poppins-Light);
+    font-size: var(--size-sm);
+}
+
+.hero--section .hero__title-wrap.hero__title-2 h1.hero__text {
+    font-weight: var(--Poppins-ExtraBold);
+    font-size: var(--size-3xl);
+    line-height: 0.9;
+    text-transform: uppercase;
+}
+
+.hero--section .hero__section.hero__title {
+    text-align: center;
+}
+
+.hero--section .hero__section.hero__img {
+    display: flex;
+    margin: auto;
+    width: 15rem;
+}
+
+.hero--section .hero__section.hero__img img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.hero--section .hero__section.hero__title {
+    transform: translateY(14px);
+    position: relative;
+    z-index: -1;
+}
+
+/* =========END OF HERO BANNER CSS============== */
+/* =========SECOND TITLE SECTION CSS============== */
+
+section.title--section {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.title--section .title--section__text .section__text {
+    text-transform: uppercase;
+    color: var(--crl-txt-secondary);
+    line-height: 0.9;
+}
+
+.title--section .title--section__text.title--section__text-1 .section__text {
+    font-weight: var(--Poppins-SemiBold);
+    font-size: var(--size-xs);
+}
+
+.title--section .title--section__text.title--section__text-2 .section__text {
+    text-transform: uppercase;
+    color: var(--crl-txt-primary);
+    font-weight: var(--Poppins-Black);
+    font-size: var(--size-5xl);
+}
+
+.title--section .title--section__text.title--section__text-3 .section__text {
+    text-transform: uppercase;
+    color: var(--crl-txt-secondary);
+    font-weight: var(--Poppins-Black);
+    font-size: 1.68rem;
+}
+
+section.title--section .has__center {
+    display: flex;
+    justify-content: center;
+}
+
+/* =========END OF SECOND TITLE SECTION CSS============== */
+/* =========PARTNER SECTION CSS============== */
+
+.section__sub-title .section__sub-text {
+    font-size: var(--size-xl);
+    font-weight: var(--Poppins-ExtraBold);
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.section__sub-title .section__sub-text span {
+    color: var(--crl-txt-primary);
+    line-height: 1;
+}
+
+.section__sub-title {
+    text-align: center;
+    margin: auto;
+}
+
+.partner__img--wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background: var(--crl-bg-primary);
+    padding: 0.4em 0;
+    max-width: 296px;
+    margin: auto;
+}
+
+.partner__img {
+    display: flex;
+    margin: auto;
+    width: 5rem;
+}
+
+.partner__img img {
+    max-height: 100%;
+    margin: auto;
+}
+
+.section__sub-title {
+    padding: 1rem 0;
+}
+
+/* =========END OF PARTNER SECTION CSS============== */
+/* =========MISSION SECTION CSS============== */
+
+.mission__inner {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mission__inner .mission__title .mission__text {
+    font-weight: var(--Poppins-Black);
+    font-size: var(--size-4xl);
+    color: var(--crl-txt-primary);
+}
+
+.mission__inner .mission__title .mission__text span {
+    font-size: calc(var(--size-4xl) - 63%);
+    color: var(--crl-txt-secondary);
+}
+
+.mission__inner .mission__wrap-1 .mission__title .mission__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission__inner .mission__wrap-1 .mission__title .mission__text span {
+    display: inline-block;
+    max-width: 1px;
+    line-height: 1;
+}
+
+.mission__inner .mission__wrap-2 .mission__title .mission__text span {
+    transform: rotate(270deg);
+    display: inline-block;
+    height: 0.4em;
+}
+
+.mission__inner .mission__paragraph p {
+    font-size: var(--size-xs);
+    line-height: 1;
+    max-width: calc(296px - 13%);
+    margin: auto;
+}
+
+.mission__inner .mission__wrap:not(:last-child) {
+    margin-bottom: 2em;
+}
+
+
+/* =========END OF MISSION SECTION CSS============== */
+/* =========OPPORTUNITY SECTION CSS============== */
+
+.opportunity__title.section__sub-title {
+    max-width: 13em;
+    margin: auto;
+}
+
+.opportunity__percent__info .opportunity__percent-text {
+    font-size: var(--size-xs);
+    margin-bottom: 0.4em;
+}
+
+.opportunity__label-text {
+    font-size: calc(var(--size-xs) - 15%);
+    margin: 0;
+}
+
+.opportunity__inner-wrap .opportunity__bar-wrap {
+    position: relative;
+}
+
+.opportunity--section .opportunity__year {
+    text-align: end;
+    position: absolute;
+    right: 0;
+    bottom: -1em;
+}
+
+.opportunity__inner-wrap,
+.opportunity__wrap.opportunity__wrap-2,
+.opportunity__bar-wrap .opportunity__inner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.opportunity--section .opportunity__year {
+    text-align: end;
+}
+
+.opportunity--section .opportunity__percentage {
+    background: var(--crl-bg-primary);
+    height: 0px;
+    width: 1.2em;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.opportunity--section .opportunity__wrap.opportunity__wrap-2 {
+    height: 200px;
+    position: relative;
+}
+
+section.opportunity--section .opportunity__percentage-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.opportunity__percentage-label.opportunity__percentage--label-4 {
+    transform: translate(0, -1em);
+    height: 0px;
+}
+
+.opportunity__side-title__wrap {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.opportunity__side-title {
+    position: absolute;
+    bottom: 0;
+}
+
+h6.opportunity__side-text {
+    font-size: var(--size-xs);
+    text-transform: uppercase;
+}
+
+.opportunity__side-title.opportunity__side-left {
+    left: 0;
+    transform: rotate(270deg);
+    transform-origin: left;
+}
+
+.opportunity__side-title.opportunity__side-right {
+    right: 0;
+    transform: rotate(90deg);
+    transform-origin: right;
+}
+
+.opportunity__wrap.opportunity__wrap-2 {
+    max-width: 296px;
+    margin: auto;
+}
+
+.opportunity__inner {
+    margin-left: 5px;
+}
+
+.opportunity__inner .opportunity__bar:not(:last-child) {
+    margin-right: 5px;
+}
+
+.opportunity__bar .opportunity__percent__info {
+    text-align: center;
+}
+
+/* =========END OF OPPORTUNITY SECTION CSS============== */
+/* =========CLIENT SECTION CSS============== */
+
+.client__title.section__sub-title {
+    max-width: 11em;
+}
+
+.client__logos {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client__logos img {
+    margin: auto;
+}
+
+.cleint__logo-wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(276px, 1fr));
+    grid-gap: 2rem;
+
+}
+
+/* =========END OF CLIENT SECTION CSS============== */
+/* =========TEAM SECTION CSS============== */
+
+.team__title.section__sub-title {
+    max-width: 16em;
+}
+
+.team__img__inner .team__img {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    z-index: 1;
+}
+
+.team__img__inner .team__img .team__circle {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    background: var(--crl-bg-primary);
+    height: 85%;
+    width: 85%;
+    border-radius: 50%;
+    z-index: -1;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team__img__inner .team__img img {
+    max-height: 100%;
+    margin: auto;
+}
+
+.team__info.team__name .team__name-text {
+    font-weight: var(--Poppins-SemiBold);
+    font-size: var(--size-base);
+}
+
+.team__position .team__position-text {
+    color: var(--crl-bg-primary);
+    line-height: 1;
+    font-size: calc(var(--size-base) - 18%);
+}
+
+.team__info-wrap {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 1.5em;
+}
+
+.team__wrapper .team__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team__circle::before {
+    content: "";
+    outline: 3px solid #fff;
+    width: 0%;
+    height: 0%;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0;
+    transition: 0.7s cubic-bezier(0.42, 0, 0.4, 0.93);
+
+}
+
+.team__circle.active::before {
+    width: 110%;
+    height: 110%;
+    opacity: 1;
+    transition: 0.7s cubic-bezier(0.42, 0, 0.4, 0.93);
+}
+
+.team__info.team__position-wrap {
+    margin-top: 0.4em;
+}
+
+.team__wrapper.team__wrapper-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2em;
+}
+
+/* =========END OF TEAM SECTION CSS============== */
+/* =========FOOTER SECTION CSS============== */
+.main__logo img {
+    margin: auto;
+}
+
+.footer__title .footer__title-text {
+    font-weight: var(--Poppins-SemiBold);
+    text-transform: capitalize;
+    margin-bottom: 0.5em;
+}
+
+.footer__title.footer__nav-title .footer__title-text {
+    font-size: var(--size-sm);
+    color: var(--crl-txt-primary);
+}
+
+.footer__nav--content li a.footer__nav--content-text {
+    font-size: var(--size-sm);
+    color: var(--crl-txt-secondary);
+}
+
+.footer__title.footer__email--title .footer__title-text {
+    font-size: var(--size-base);
+    text-align: center;
+}
+
+.footer__email--wrap button {
+    font-size: var(--size-xs);
+    border-radius: 2em;
+    padding: 0.5em 2em;
+}
+
+.footer__email--wrap {
+    padding: 0.5em;
+    background: var(--crl-bg-primary);
+    border-radius: 5em;
+    display: flex;
+    justify-content: space-between;
+    width: 296px;
+    margin: auto;
+}
+
+.footer__email--wrap input {
+    margin-left: 1em;
+    background: unset;
+    color: var(--crl-txt-header);
+    width: 100%;
+}
+
+.footer__email--wrap input::-webkit-input-placeholder {
+    color: var(--crl-txt-header);
+}
+
+.footer__email--wrap input::-moz-placeholder {
+    color: var(--crl-txt-header);
+}
+
+.footer__email--wrap input:-ms-input-placeholder {
+    color: var(--crl-txt-header);
+}
+
+.footer__email--wrap input::-ms-input-placeholder {
+    color: var(--crl-txt-header);
+}
+
+.footer__email--wrap input::placeholder {
+    color: var(--crl-txt-header);
+}
+
+.footer__navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1em;
+}
+
+.footer__wrap.footer__wrap-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.main--footer .footer__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.main--footer.footer--section {
+    padding-bottom: 5em;
+
+}
+
+.footer__title.footer__email--title {
+    margin-bottom: 2em;
+}
+
+/* =========END OF FOOTER SECTION CSS============== */
+
+
+/* 2xs */
+@media (min-width: 375px) {
+    /* =========HERO BANNER CSS============== */
+
+    .hero--section .hero__section.hero__img {
+        width: 17rem;
+    }
+
+    .hero--section .hero__title-wrap.hero__title-2 h1.hero__text {
+        font-size: var(--size-4xl);
+    }
+
+    .hero--section .hero__title-wrap.hero__title-1 h5.hero__text {
+        font-size: var(--size-sm);
+    }
+
+    .hero--section .hero__section.hero__title {
+        transform: translateY(15px);
+    }
+
+    /* =========END OF HERO BANNER CSS============== */
+    /* =========SECOND TITLE SECTION CSS============== */
+
+    .title--section .title--section__text.title--section__text-1 .section__text {
+        font-size: var(--size-sm);
+    }
+
+    .title--section .title--section__text.title--section__text-2 .section__text {
+        font-size: var(--size-5xl);
+    }
+
+    .title--section .title--section__text.title--section__text-3 .section__text {
+        font-size: 1.68rem;
+    }
+
+    /* =========END OF SECOND TITLE SECTION CSS============== */
+    /* =========PARTNER SECTION CSS============== */
+
+    .partner__img--wrap {
+        max-width: 288px;
+    }
+
+    /* =========END OF PARTNER SECTION CSS============== */
+    /* =========FOOTER SECTION CSS============== */
+
+    .footer__navigation {
+        display: flex;
+        flex-direction: unset;
+        align-items: unset;
+        justify-content: center;
+        text-align: unset;
+        gap: 2em;
+    }
+
+    /* =========END OF FOOTER SECTION CSS============== */
+}
+
+/* xs */
+@media (min-width: 475px) {
+    /* =========HERO BANNER CSS============== */
+
+    .hero--section .hero__section.hero__img {
+        width: 21rem;
+    }
+
+    .hero--section .hero__title-wrap.hero__title-2 h1.hero__text {
+        font-size: var(--size-5xl);
+    }
+
+    .hero--section .hero__title-wrap.hero__title-1 h5.hero__text {
+        font-size: var(--size-base);
+    }
+
+    .hero--section .hero__section.hero__title {
+        transform: translateY(21px);
+    }
+
+    /* =========END OF HERO BANNER CSS============== */
+    /* =========SECOND TITLE SECTION CSS============== */
+
+    .title--section .title--section__text.title--section__text-1 .section__text {
+        font-size: var(--size-base);
+    }
+
+    .title--section .title--section__text.title--section__text-2 .section__text {
+        font-size: var(--size-6xl);
+    }
+
+    .title--section .title--section__text.title--section__text-3 .section__text {
+        font-size: 2.1rem;
+    }
+
+    /* =========END OF SECOND TITLE SECTION CSS============== */
+    /* =========PARTNER SECTION CSS============== */
+
+    .section__sub-title .section__sub-text {
+        font-size: var(--size-2xl);
+    }
+
+    .partner__img--wrap {
+        border-radius: 8px;
+        max-width: 400px;
+    }
+
+    .partner__img {
+        width: 6rem;
+    }
+
+    /* =========END OF PARTNER SECTION CSS============== */
+    /* =========MISSION SECTION CSS============== */
+
+    .mission__inner .mission__title .mission__text {
+        font-size: var(--size-5xl);
+    }
+
+    .mission__inner .mission__title .mission__text span {
+        font-size: calc(var(--size-5xl) - 63%);
+    }
+
+    .mission__inner .mission__wrap-2 .mission__title .mission__text span {
+        height: 0.1em;
+    }
+
+    .mission__inner .mission__paragraph p {
+        font-size: var(--size-xs);
+        max-width: calc(400px - 13%);
+    }
+
+    /* =========END OF MISSION SECTION CSS============== */
+    /* =========CLIENT SECTION CSS============== */
+    .cleint__logo-wrap {
+
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    }
+
+    .client__logos {
+        height: 100px;
+        width: 100px;
+    }
+
+    /* =========END OF CLIENT SECTION CSS============== */
+    /* =========TEAM SECTION CSS============== */
+
+    .team__title.section__sub-title {
+        max-width: 20em;
+    }
+
+    /* =========END OF TEAM SECTION CSS============== */
+    /* ========= FOOTER CSS============== */
+
+    .main__logo {
+        height: 125px;
+        width: 125px;
+    }
+
+    /* =========END OF FOOTER CSS============== */
+
+}
+
+/* sm */
+@media (min-width: 640px) {
+    section .title--wrap {
+        margin-bottom: 3em;
+    }
+
+    /* =========HERO BANNER CSS============== */
+
+    .hero--section .hero__section.hero__img {
+        width: 26rem;
+    }
+
+    .hero--section .hero__title-wrap.hero__title-2 h1.hero__text {
+        font-size: var(--size-6xl);
+    }
+
+    .hero--section .hero__title-wrap.hero__title-1 h5.hero__text {
+        font-size: var(--size-xl);
+    }
+
+    .hero--section .hero__section.hero__title {
+        transform: translateY(25px);
+    }
+
+    /* =========END OF HERO BANNER CSS============== */
+    /* =========SECOND TITLE SECTION CSS============== */
+
+    .title--section .title--section__text.title--section__text-1 .section__text {
+        font-size: var(--size-xl);
+    }
+
+    .title--section .title--section__text.title--section__text-2 .section__text {
+        font-size: var(--size-7xl);
+    }
+
+    .title--section .title--section__text.title--section__text-3 .section__text {
+        font-size: 2.52rem;
+    }
+
+    /* =========END OF SECOND TITLE SECTION CSS============== */
+    /* =========PARTNER SECTION CSS============== */
+
+    .section__sub-title .section__sub-text {
+        font-size: var(--size-3xl);
+    }
+
+    .partner__img--wrap {
+        border-radius: 8px;
+        max-width: 432px;
+    }
+
+    .partner__img {
+        width: 7rem;
+    }
+
+    /* =========END OF PARTNER SECTION CSS============== */
+    /* =========MISSION SECTION CSS============== */
+
+    .mission__inner .mission__title .mission__text {
+        font-size: var(--size-6xl);
+    }
+
+    .mission__inner .mission__title .mission__text span {
+        font-size: calc(var(--size-6xl) - 63%);
+    }
+
+    .mission__inner .mission__wrap-2 .mission__title .mission__text span {
+        height: 0.1em;
+    }
+
+    .mission__inner .mission__paragraph p {
+        font-size: var(--size-xs);
+        max-width: calc(432px - 13%);
+    }
+
+    /* =========END OF MISSION SECTION CSS============== */
+    /* =========OPPORTUNITY SECTION CSS============== */
+
+    .opportunity__title.section__sub-title {
+        max-width: 19em;
+    }
+
+    .opportunity__percent__info .opportunity__percent-text {
+        font-size: var(--size-sm);
+        margin-bottom: 0.4em;
+    }
+
+    .opportunity__label-text {
+        font-size: calc(var(--size-sm) - 15%);
+        margin: 0;
+    }
+
+
+    .opportunity--section .opportunity__year {
+        right: 5%;
+        bottom: -1.2em;
+    }
+
+
+    .opportunity--section .opportunity__percentage {
+        width: 2em;
+        border-top-left-radius: 0.3em;
+        border-top-right-radius: 0.3em;
+    }
+
+    .opportunity--section .opportunity__wrap.opportunity__wrap-2 {
+        height: 232px;
+    }
+
+    .opportunity__side-title.opportunity__side-left {
+        left: -10px;
+    }
+
+    .opportunity__side-title.opportunity__side-right {
+        right: -10px;
+    }
+
+    h6.opportunity__side-text {
+        font-size: calc(var(--size-sm) + 14%);
+    }
+
+    .opportunity__wrap.opportunity__wrap-2 {
+        max-width: 432px;
+    }
+
+    .opportunity__inner {
+        margin-left: 0.3125em;
+    }
+
+    .opportunity__inner .opportunity__bar:not(:last-child) {
+        margin-right: 0.3125em;
+    }
+
+    /* =========END OF OPPORTUNITY SECTION CSS============== */
+    /* =========CLIENT SECTION CSS============== */
+
+    .client__title.section__sub-title {
+        max-width: 15em;
+    }
+
+    .client__logos {
+        height: 120px;
+        width: 120px;
+    }
+
+    .cleint__logo-wrap {
+        gap: 2rem;
+    }
+
+    /* =========END OF CLIENT SECTION CSS============== */
+    /* =========TEAM SECTION CSS============== */
+
+    .team__title.section__sub-title {
+        max-width: 23em;
+    }
+
+    /* =========END OF TEAM SECTION CSS============== */
+    /* =========FOOTER SECTION CSS============== */
+
+    .footer__navigation {
+        gap: 7em;
+    }
+
+    .main__logo {
+        height: 140px;
+        width: 140px;
+    }
+
+    /* =========END OF FOOTER SECTION CSS============== */
+}
+
+/* md */
+@media (min-width: 768px) {
+
+    /* =========HEADER CSS============== */
+    header.main--header .header__inner .header--navigation {
+        display: flex;
+        align-items: center;
+    }
+
+    header.main--header .header__inner {
+        justify-content: center;
+    }
+
+    header.main--header .header__inner .header--navigation ul.header__menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2em;
+        margin: 0 4em;
+    }
+
+    header.main--header .header__inner .header--navigation ul a {
+        color: var(--crl-txt-header);
+        font-size: var(--size-base);
+        transition: color 0.3s;
+    }
+
+    header.main--header .header__inner .header--navigation ul a:hover {
+        color: var(--crl-txt-secondary);
+    }
+
+    .header__btn {
+        font-size: var(--size-xs);
+    }
+
+    .header__hamburger-menu {
+        display: none;
+    }
+
+    .default--btn {
+        font-size: var(--size-sm);
+    }
+
+    /* =========END OF HEADER CSS============== */
+    /* =========HERO BANNER CSS============== */
+
+    .hero--section .hero__section.hero__img {
+        width: 31rem;
+    }
+
+    .hero--section .hero__title-wrap.hero__title-2 h1.hero__text {
+        font-size: var(--size-7xl);
+    }
+
+    .hero--section .hero__title-wrap.hero__title-1 h5.hero__text {
+        font-size: var(--size-2xl);
+    }
+
+    .hero--section .hero__section.hero__title {
+        transform: translateY(31px);
+    }
+
+    /* =========END OF HERO BANNER CSS============== */
+    /* =========SECOND TITLE SECTION CSS============== */
+
+    .title--section .title--section__text.title--section__text-1 .section__text {
+        font-size: var(--size-2xl);
+    }
+
+    .title--section .title--section__text.title--section__text-2 .section__text {
+        font-size: var(--size-8xl);
+    }
+
+    .title--section .title--section__text.title--section__text-3 .section__text {
+        font-size: 3.35rem;
+    }
+
+    /* =========END OF SECOND TITLE SECTION CSS============== */
+    /* =========PARTNER SECTION CSS============== */
+
+    .section__sub-title .section__sub-text {
+        font-size: var(--size-4xl);
+    }
+
+    .partner__img--wrap {
+        border-radius: 8px;
+        max-width: 578px;
+    }
+
+    .partner__img {
+        width: 9rem;
+    }
+
+    /* =========END OF PARTNER SECTION CSS============== */
+    /* =========MISSION SECTION CSS============== */
+
+    .mission__inner .mission__title .mission__text {
+        font-size: var(--size-7xl);
+    }
+
+    .mission__inner .mission__title .mission__text span {
+        font-size: calc(var(--size-7xl) - 63%);
+    }
+
+    .mission__inner .mission__wrap-2 .mission__title .mission__text span {
+        height: 0.1em;
+    }
+
+    .mission__inner .mission__paragraph p {
+        font-size: var(--size-base);
+        max-width: calc(578px - 13%);
+    }
+
+    /* =========END OF MISSION SECTION CSS============== */
+    /* =========OPPORTUNITY SECTION CSS============== */
+
+    .opportunity__title.section__sub-title {
+        max-width: 22em;
+    }
+
+    .opportunity__percent__info .opportunity__percent-text {
+        font-size: var(--size-sm);
+        margin-bottom: 0.4em;
+    }
+
+    .opportunity__label-text {
+        font-size: calc(var(--size-sm) - 15%);
+        margin: 0;
+    }
+
+    h6.opportunity__side-text {
+        font-size: calc(var(--size-sm) + 14%);
+    }
+
+    .opportunity--section .opportunity__year {
+        bottom: -1.5em;
+    }
+
+
+    .opportunity--section .opportunity__percentage {
+        width: 2.8em;
+        border-top-left-radius: 0.3em;
+        border-top-right-radius: 0.3em;
+    }
+
+    .opportunity--section .opportunity__wrap.opportunity__wrap-2 {
+        height: 400px;
+    }
+
+    .opportunity__side-title.opportunity__side-left {
+        left: -20px;
+    }
+
+    .opportunity__side-title.opportunity__side-right {
+        right: -20px;
+    }
+
+    .opportunity__wrap.opportunity__wrap-2 {
+        max-width: 578px;
+    }
+
+    .opportunity__inner {
+        margin-left: 0.4em;
+    }
+
+    .opportunity__inner .opportunity__bar:not(:last-child) {
+        margin-right: 0.4em;
+    }
+
+    /* =========END OF OPPORTUNITY SECTION CSS============== */
+    /* =========CLIENT SECTION CSS============== */
+
+    .client__title.section__sub-title {
+        max-width: 18em;
+    }
+
+    .cleint__logo-wrap {
+        gap: 3rem;
+    }
+
+    /* =========END OF CLIENT SECTION CSS============== */
+    /* =========TEAM SECTION CSS============== */
+
+    .team__title.section__sub-title {
+        max-width: 30em;
+    }
+
+    .team__wrapper.team__wrapper-2 {
+        gap: 4em;
+
+    }
+
+    /* =========END OF TEAM SECTION CSS============== */
+    /* =========FOOTER SECTION CSS============== */
+    .main--footer .footer__inner {
+        flex-direction: unset;
+        gap: 1em;
+        justify-content: space-between;
+    }
+
+    .footer__navigation {
+        gap: 2em;
+    }
+
+    .main--footer.footer--section {
+        padding-bottom: 7em;
+        padding-top: 3em;
+    }
+
+    /* =========END OF FOOTER SECTION CSS============== */
+}
+
+/* lg */
+@media (min-width: 1024px) {
+
+    section .title--wrap {
+        margin-bottom: 4em;
+    }
+
+    /* =========HEADER CSS============== */
+    header.main--header .header__inner .header--navigation ul a {
+        font-size: var(--size-xl);
+    }
+
+    .default--btn {
+        font-size: var(--size-xl);
+    }
+
+    .main__logo {
+        height: var(--size-9xl);
+        width: var(--size-9xl);
+    }
+
+    /* =========END OF HEADER CSS============== */
+    /* =========HERO BANNER CSS============== */
+
+    .hero--section .hero__section.hero__img {
+        width: 43rem;
+    }
+
+    .hero--section .hero__title-wrap.hero__title-2 h1.hero__text {
+        font-size: var(--size-8xl);
+    }
+
+    .hero--section .hero__title-wrap.hero__title-1 h5.hero__text {
+        font-size: var(--size-3xl);
+    }
+
+    .hero--section .hero__section.hero__title {
+        transform: translateY(41px);
+    }
+
+
+
+    /* =========END OF HERO BANNER CSS============== */
+    /* =========SECOND TITLE SECTION CSS============== */
+
+    .title--section .title--section__text.title--section__text-1 .section__text {
+        font-size: var(--size-3xl);
+    }
+
+    .title--section .title--section__text.title--section__text-2 .section__text {
+        font-size: var(--size-9xl);
+    }
+
+    .title--section .title--section__text.title--section__text-3 .section__text {
+        font-size: 4.47rem;
+    }
+
+    /* =========END OF SECOND TITLE SECTION CSS============== */
+    /* =========PARTNER SECTION CSS============== */
+
+    .section__sub-title .section__sub-text {
+        font-size: var(--size-5xl);
+    }
+
+    .partner__img--wrap {
+        border-radius: 10px;
+        max-width: 885px;
+    }
+
+    .partner__img {
+        width: 10rem;
+    }
+
+    /* =========END OF PARTNER SECTION CSS============== */
+    /* =========MISSION SECTION CSS============== */
+
+    .mission__inner .mission__title .mission__text {
+        font-size: var(--size-8xl);
+    }
+
+    .mission__inner .mission__title .mission__text span {
+        font-size: calc(var(--size-8xl) - 63%);
+    }
+
+    .mission__inner .mission__wrap-2 .mission__title .mission__text span {
+        height: 0.1em;
+    }
+
+    .mission__inner .mission__paragraph p {
+        font-size: var(--size-xl);
+        max-width: calc(885px - 13%);
+    }
+
+    /* =========END OF MISSION SECTION CSS============== */
+    /* =========OPPORTUNITY SECTION CSS============== */
+
+    .opportunity__title.section__sub-title {
+        max-width: 35em;
+    }
+
+    .opportunity__percent__info .opportunity__percent-text {
+        font-size: var(--size-base);
+        margin-bottom: 0.4em;
+    }
+
+    .opportunity__label-text {
+        font-size: calc(var(--size-base) - 15%);
+        margin: 0;
+    }
+
+    h6.opportunity__side-text {
+        font-size: calc(var(--size-base) + 14%);
+    }
+
+    .opportunity--section .opportunity__year {
+        bottom: -2em;
+    }
+
+
+    .opportunity--section .opportunity__percentage {
+        width: 4.5em;
+        border-top-left-radius: 0.4em;
+        border-top-right-radius: 0.4em;
+    }
+
+    .opportunity--section .opportunity__wrap.opportunity__wrap-2 {
+        height: 550px;
+    }
+
+    .opportunity__side-title.opportunity__side-left {
+        left: -40px;
+    }
+
+    .opportunity__side-title.opportunity__side-right {
+        right: -40px;
+    }
+
+    .opportunity__wrap.opportunity__wrap-2 {
+        max-width: 885px;
+    }
+
+    .opportunity__inner {
+        margin-left: 0.5em;
+    }
+
+    .opportunity__inner .opportunity__bar:not(:last-child) {
+        margin-right: 0.5em;
+    }
+
+    /* =========END OF OPPORTUNITY SECTION CSS============== */
+    /* =========CLIENT SECTION CSS============== */
+
+    .client__title.section__sub-title {
+        max-width: 25em;
+    }
+
+    .client__logos {
+        height: 180px;
+        width: 180px;
+    }
+
+    .cleint__logo-wrap {
+        gap: 5rem;
+    }
+
+    /* =========END OF CLIENT SECTION CSS============== */
+    /* =========TEAM SECTION CSS============== */
+
+    .team__title.section__sub-title {
+        max-width: 42em;
+    }
+
+    .team__img__inner .team__img {
+        width: 200px;
+        height: 200px;
+    }
+
+
+    .team__info.team__name .team__name-text {
+        font-size: var(--size-lg);
+    }
+
+    .team__position .team__position-text {
+        font-size: calc(var(--size-lg) - 18%);
+    }
+
+    .team__circle::before {
+        outline: 5px solid #fff;
+    }
+
+    .team__wrapper.team__wrapper-2 {
+        gap: 5em;
+
+    }
+
+    /* =========END OF TEAM SECTION CSS============== */
+    /* =========FOOTER SECTION CSS============== */
+    .main--footer .footer__inner {
+        gap: 3em;
+        justify-content: center;
+    }
+
+    .footer__navigation {
+        gap: 3em;
+    }
+
+    .container .main__logo {
+        height: 130px;
+        width: 130px;
+    }
+
+    .footer__nav--content li a.footer__nav--content-text {
+        font-size: var(--size-lg);
+    }
+
+    .footer__title.footer__nav-title .footer__title-text {
+        font-size: var(--size-lg);
+    }
+
+    .footer__title.footer__email--title .footer__title-text {
+        font-size: var(--size-xl);
+        text-align: left;
+    }
+
+    input {
+        font-size: var(--size-lg);
+    }
+
+    .footer__email--wrap button {
+        font-size: var(--size-sm);
+    }
+
+    /* =========END OF FOOTER SECTION CSS============== */
+}
+
+/* xL */
+@media (min-width: 1280px) {
+    .team__wrapper.team__wrapper-2 {
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 0fr));
+        grid-gap: 5em 2em;
+    }
+}
+
+/* 2xL */
+/* @media (min-width: 1536px) {
+
+} */

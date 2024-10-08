@@ -1,0 +1,127 @@
+/* 2xs */
+/* @media (min-width: 375px) {
+  
+} */
+
+/* xs */
+/* @media (min-width: 475px) {
+
+} */
+
+/* xs */
+/* @media (min-width: 640px) {
+
+} */
+
+/* xs */
+/* @media (min-width: 768px) {
+
+} */
+
+/* xs */
+/* @media (min-width: 1024px) {
+
+} */
+
+/* xs */
+/* @media (min-width: 1280px) {
+
+} */
+
+/* xs */
+/* @media (min-width: 1536px) {
+
+} */
+#main--page {
+    overflow: hidden;
+}
+
+.default--btn {
+    background: var(--crl-bg-secondary);
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--crl-txt-secondary);
+}
+
+.section--bg {
+    background: var(--crl-bg-secondary);
+}
+
+.main__logo {
+    height: 89px;
+    width: 89px;
+    display: flex;
+}
+
+.main__logo a {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.title--wrap {
+    margin-bottom: 1em;
+}
+
+.section {
+    padding-top: 5rem;
+}
+
+.default--btn a {
+    color: var(--crl-txt-secondary);
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+
+/* 2xs */
+@media (min-width: 375px) {
+    .container {
+        max-width: 375px;
+    }
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .container {
+        max-width: 475px;
+    }
+}
+
+/* xs */
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+/* xs */
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+/* xs */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+/* xs */
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+/* xs */
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+}

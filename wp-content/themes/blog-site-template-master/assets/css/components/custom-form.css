@@ -1,0 +1,58 @@
+.footer__wrap form p {
+    padding: 0.5em;
+    background: var(--crl-bg-primary);
+    border-radius: 5em;
+    display: flex;
+    justify-content: space-between;
+    width: 296px;
+    margin: auto;
+    position: relative;
+}
+
+.footer__wrap form p span.wpcf7-form-control-wrap {
+    flex: 1;
+    height: 38px;
+    padding-left: 0.5em;
+}
+
+.footer__wrap form p span.wpcf7-form-control-wrap input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    color: var(--crl-txt-header);
+}
+
+.footer__wrap form p span.wpcf7-form-control-wrap input::placeholder {
+
+    color: var(--crl-txt-header);
+}
+
+.footer__wrap form p input.wpcf7-submit {
+    font-size: var(--size-sm);
+    border-radius: 20px;
+    padding: 0.5em 2em;
+}
+
+.footer__wrap .wpcf7-spinner {
+    position: absolute;
+    left: 0;
+}
+
+.wpcf7-not-valid-tip {
+    background: var(--crl-bg-services-cards);
+    border-radius: 20px;
+    padding: 1em 2em;
+    width: 268px;
+    position: absolute;
+    bottom: 3em;
+    left: -5em;
+    font-weight: 500;
+}
+
+.wpcf7-not-valid-tip::after {
+    content: url("data:image/svg+xml,%3C!--%3Fxml version='1.0' standalone='no'%3F--%3E%3Csvg id='sw-js-blob-svg' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='sw-gradient' x1='0' x2='1' y1='1' y2='0'%3E%3Cstop id='stop1' stop-color='rgba(255, 255, 255, 1)' offset='0%25'%3E%3C/stop%3E%3Cstop id='stop2' stop-color='rgba(255, 255, 255, 1)' offset='100%25'%3E%3C/stop%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath fill='url(%23sw-gradient)' d='M23.3,-17.7C25.5,-9.5,19.5,-0.9,14.2,6.7C9,14.3,4.5,20.8,-1.4,21.7C-7.4,22.5,-14.8,17.6,-20.2,9.9C-25.7,2.2,-29.2,-8.3,-25.5,-17.3C-21.8,-26.3,-10.9,-33.7,-0.2,-33.6C10.5,-33.5,21,-25.8,23.3,-17.7Z' width='100%25' height='100%25' transform='translate(50 50)' stroke-width='0' style='transition: all 0.3s ease 0s;' stroke='url(%23sw-gradient)'%3E%3C/path%3E%3C/svg%3E");
+    position: absolute;
+    bottom: 52px;
+    height: 50px;
+    width: 50px;
+}

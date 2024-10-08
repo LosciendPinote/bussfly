@@ -1,0 +1,121 @@
+/*!
+Theme Name: Losciend Training
+Theme URI: https://github.com/LosciendPinote
+Author: Losciend Pinote
+Author URI: https://github.com/LosciendPinote
+Description: This is only for training without using ACF
+Version: 1.5.1
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: https://github.com/LosciendPinote
+Text Domain: losciend-training
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+
+*/
+:root {
+    /* for color */
+    --crl-txt-primary: #FEC200;
+    --crl-txt-secondary: #fff;
+    --crl-txt-header: #000;
+    --crl-bg-primary: #FDCF09;
+    --crl-bg-secondary: #000;
+    --crl-bg-services-cards: #fff;
+    --crl-services-text-black: #000;
+
+    /* for font sizes */
+    --size-xxs: .5rem;
+    --size-xs: .75rem;
+    --size-sm: .875rem;
+    --size-base: 1rem;
+    --size-lg: 1.125rem;
+    --size-xl: 1.25rem;
+    --size-2xl: 1.5rem;
+    --size-3xl: 1.875rem;
+    --size-4xl: 2.25rem;
+    --size-5xl: 3rem;
+    --size-6xl: 3.75rem;
+    --size-7xl: 4.5rem;
+    --size-8xl: 6rem;
+    --size-9xl: 8rem;
+    --size-10xl: 10rem;
+
+    /* for font family */
+    --Poppins-Light: 300;
+    --Poppins-Regular: 400;
+    --Poppins-Medium: 500;
+    --Poppins-SemiBold: 600;
+    --Poppins-ExtraBold: 800;
+    --Poppins-Black: 900;
+}
+
+* {
+    margin: 0;
+    line-height: calc(1em + 0.5rem);
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins',
+        sans-serif;
+    background: var(--crl-bg-primary);
+    color: var(--crl-txt-secondary);
+}
+
+img,
+video,
+picture,
+canvas,
+svg {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    display: inline-block;
+    color: inherit;
+}
+
+a {
+    color: var(--crl-txt-header);
+    display: inline-block;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    outline: unset;
+    border: unset;
+    font-size: var(--size-sm);
+}

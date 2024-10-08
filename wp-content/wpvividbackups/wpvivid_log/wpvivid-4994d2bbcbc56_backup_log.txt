@@ -1,0 +1,50 @@
+Log created: 2024-10-08 02:54:05
+Type: backup
+[2024-10-08 02:54:06][notice]Start backing up.
+[2024-10-08 02:54:06][notice]server info fcgi:Off max execution time: 300 wp version:6.6.2 php version:8.2.4 db version:10.4.28 php ini:safe_mode: memory_limit:256M memory_get_usage:55.26 MB memory_get_peak_usage:56.06 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2024-10-08 02:54:06][notice]Prepare to backup backup_db files.
+[2024-10-08 02:54:06][notice]Start exporting database.
+[2024-10-08 02:54:06][notice]Preparing to dump table wp_fbv_attachment_folder
+[2024-10-08 02:54:06][notice]Preparing to dump table wp_mgmlp_block_access
+[2024-10-08 02:54:06][notice]Preparing to dump table wp_mgmlp_blocked_ips
+[2024-10-08 02:54:06][notice]Preparing to dump table wp_mgmlp_folders
+[2024-10-08 02:54:06][notice]Preparing to dump table wp_fbv
+[2024-10-08 02:54:06][notice]Preparing to dump table wp_links
+[2024-10-08 02:54:06][notice]Preparing to dump table wp_term_relationships
+[2024-10-08 02:54:06][notice]Preparing to dump table wp_commentmeta
+[2024-10-08 02:54:06][notice]Preparing to dump table wp_term_taxonomy
+[2024-10-08 02:54:06][notice]Preparing to dump table wp_termmeta
+[2024-10-08 02:54:06][notice]Preparing to dump table wp_terms
+[2024-10-08 02:54:06][notice]Preparing to dump table wp_usermeta
+[2024-10-08 02:54:06][notice]Preparing to dump table wp_users
+[2024-10-08 02:54:06][notice]Preparing to dump table wp_comments
+[2024-10-08 02:54:06][notice]Preparing to dump table wp_postmeta
+[2024-10-08 02:54:06][notice]Preparing to dump table wp_posts
+[2024-10-08 02:54:07][notice]Preparing to dump table wp_options
+[2024-10-08 02:54:07][notice]Exporting database finished.
+[2024-10-08 02:54:07][notice]Start compressing database
+[2024-10-08 02:54:07][notice]Prepare to zip file. file: localhost_losciend_training_wpvivid-4994d2bbcbc56_2024-10-08-02-54_backup_db.sql
+[2024-10-08 02:54:07][notice]Adding zip files completed.localhost_losciend_training_wpvivid-4994d2bbcbc56_2024-10-08-02-54_backup_db.part001.zip, filesize: 483.09 KB
+[2024-10-08 02:54:07][notice]Compressing database completed
+[2024-10-08 02:54:07][notice]Backing up backup_db completed.
+[2024-10-08 02:54:07][notice]Prepare to backup backup_themes files.
+[2024-10-08 02:54:07][notice]Compressing zip file:localhost_losciend_training_wpvivid-4994d2bbcbc56_2024-10-08-02-54_backup_themes.part001.zip index:459
+[2024-10-08 02:54:09][notice]Compressing zip file:localhost_losciend_training_wpvivid-4994d2bbcbc56_2024-10-08-02-54_backup_themes.part001.zip success. index:459 file size:17.64 MB
+[2024-10-08 02:54:09][notice]Backing up backup_themes completed.
+[2024-10-08 02:54:09][notice]Prepare to backup backup_plugin files.
+[2024-10-08 02:54:09][notice]Compressing zip file:localhost_losciend_training_wpvivid-4994d2bbcbc56_2024-10-08-02-54_backup_plugin.part001.zip index:1136
+[2024-10-08 02:54:14][notice]Compressing zip file:localhost_losciend_training_wpvivid-4994d2bbcbc56_2024-10-08-02-54_backup_plugin.part001.zip success. index:1136 file size:28.84 MB
+[2024-10-08 02:54:14][notice]Backing up backup_plugin completed.
+[2024-10-08 02:54:14][notice]Prepare to backup backup_uploads files.
+[2024-10-08 02:54:15][notice]Compressing zip file:localhost_losciend_training_wpvivid-4994d2bbcbc56_2024-10-08-02-54_backup_uploads.part001.zip index:102
+[2024-10-08 02:54:15][notice]Compressing zip file:localhost_losciend_training_wpvivid-4994d2bbcbc56_2024-10-08-02-54_backup_uploads.part001.zip success. index:102 file size:5.25 MB
+[2024-10-08 02:54:15][notice]Backing up backup_uploads completed.
+[2024-10-08 02:54:15][notice]Prepare to backup backup_content files.
+[2024-10-08 02:54:15][notice]Compressing zip file:localhost_losciend_training_wpvivid-4994d2bbcbc56_2024-10-08-02-54_backup_content.part001.zip index:34
+[2024-10-08 02:54:15][notice]Compressing zip file:localhost_losciend_training_wpvivid-4994d2bbcbc56_2024-10-08-02-54_backup_content.part001.zip success. index:34 file size:714.31 KB
+[2024-10-08 02:54:15][notice]Backing up backup_content completed.
+[2024-10-08 02:54:15][notice]Prepare to backup backup_core files.
+[2024-10-08 02:54:16][notice]Compressing zip file:localhost_losciend_training_wpvivid-4994d2bbcbc56_2024-10-08-02-54_backup_core.part001.zip index:2679
+[2024-10-08 02:54:33][notice]Compressing zip file:localhost_losciend_training_wpvivid-4994d2bbcbc56_2024-10-08-02-54_backup_core.part001.zip success. index:2679 file size:55.77 MB
+[2024-10-08 02:54:33][notice]Backing up backup_core completed.
+[2024-10-08 02:54:33][notice]Backup cancelled.

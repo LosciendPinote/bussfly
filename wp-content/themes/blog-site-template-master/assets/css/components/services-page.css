@@ -1,0 +1,213 @@
+/* ========= SERVICES PAGE CSS============== */
+
+.services__contents .services__title.services__page-title h1 {
+    color: var(--crl-txt-header);
+    font-size: var(--size-2xl);
+}
+
+.heading__weight h1,
+.heading__weight h3 {
+    font-weight: 600;
+}
+
+.services__item-image {
+    margin: 0 auto;
+}
+
+.services__contents {
+    text-align: center;
+}
+
+.services__title.services__page-title {
+    padding-bottom: 3em;
+}
+
+.default--btn.services__item-btn {
+    border-radius: 20px;
+    padding: unset;
+}
+
+.default--btn.services__item-btn a {
+    padding: 0.4em 3em;
+    font-size: var(--size-sm);
+}
+
+.services__item-title h3 {
+    font-size: var(--size-lg);
+}
+
+.services__item-description p {
+    font-size: var(--size-sm);
+}
+
+.services__list_posts {
+    background: var(--crl-bg-services-cards);
+    border-radius: 15px;
+    padding: 1.5em;
+}
+
+.services__item-title h3,
+.services__item-description p {
+    color: var(--crl-services-text-black);
+}
+
+.services__item-description {
+    margin: 1.5em 0;
+}
+
+.services__contents {
+    display: flex;
+    justify-content: center;
+}
+
+.services__contents.services__content-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
+
+.container-xxl.section.container--page {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.services__item-image {
+    height: 189px;
+    width: 189px;
+}
+
+.services__item-image img {
+    margin: auto;
+}
+
+.services__item-title.heading__weight {
+    margin-top: 1em;
+}
+
+
+/* =========END OF SERVICES PAGE CSS============== */
+
+
+
+
+
+/* 2xs */
+@media (min-width: 375px) {
+
+    /* ========= SERVICES PAGE CSS============== */
+
+    .services__list_posts {
+        margin: auto;
+        max-width: 296px;
+    }
+
+    /* =========END OF SERVICES PAGE CSS============== */
+}
+
+/* xs */
+@media (min-width: 475px) {
+    /* ========= SERVICES PAGE CSS============== */
+
+    .services__contents.services__content-cards {
+
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    }
+
+    /* =========END OF SERVICES PAGE CSS============== */
+}
+
+/* xs */
+@media (min-width: 640px) {
+
+    /* ========= SERVICES PAGE CSS============== */
+    .services__contents .services__title.services__page-title h1 {
+        font-size: var(--size-3xl);
+    }
+
+    .default--btn.services__item-btn a {
+        padding: 0.4em 3em;
+        font-size: var(--size-base);
+    }
+
+    .services__item-title h3 {
+        font-size: var(--size-xl);
+    }
+
+    .services__item-description p {
+        font-size: var(--size-base);
+    }
+
+    .services__list_posts {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        margin: unset;
+    }
+
+    .default--btn.services__item-btn {
+        margin-top: auto;
+    }
+
+    /* =========END OF SERVICES PAGE CSS============== */
+}
+
+/* xs */
+@media (min-width: 768px) {
+    /* ========= SERVICES PAGE CSS============== */
+
+    .services__item-description {
+        margin: 1.5em 0;
+    }
+
+    .services__contents.services__content-cards {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .services__item-image {
+        height: 192px;
+        width: 192px;
+    }
+
+    .services__list_posts {
+        display: flex;
+        flex-direction: column;
+        max-width: 272px;
+        margin: unset;
+    }
+
+    .default--btn.services__item-btn {
+        margin-top: auto;
+    }
+
+    /* =========END OF SERVICES PAGE CSS============== */
+
+}
+
+/* xs */
+@media (min-width: 1024px) {
+    /* ========= SERVICES PAGE CSS============== */
+
+    .services__list_posts {
+        display: flex;
+        flex-direction: column;
+        max-width: unset;
+        margin: 0 auto;
+    }
+
+    .services__contents.services__content-cards {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    /* =========END OF SERVICES PAGE CSS============== */
+}
+
+/* xs */
+/* @media (min-width: 1280px) {
+
+} */
+
+/* xs */
+/* @media (min-width: 1536px) {
+
+} */
